@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 200%;
+  overflow-x: hidden;
+}
+
+#mobile-menu {
+  display: none;
+}
+@media (max-device-width: 415px) {
+  #mobile-menu {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    right: -50%;
+    filter: invert(42%) sepia(91%) saturate(4522%) hue-rotate(146deg) brightness(95%) contrast(99%);
+  }
+}
+
+#mobile-navbar {
+  display: none;
+}
+@media (max-device-width: 415px) {
+  #mobile-navbar {
+    display: block;
+  }
+}
+
+#mobile-navbar.active {
+  background: #245852;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  animation: 0.5s show ease;
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#mobile-navbar.active .navbar__text1 {
+  margin-top: 400px;
+  color: white;
+  font-family: "Lato";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+#mobile-navbar.active .navbar__text2 {
+  margin-top: 200px;
+  color: white;
+  font-family: "Lato";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+#mobile-navbar.active .navbar__text3 {
+  margin-top: 200px;
+  color: white;
+  font-family: "Lato";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+#mobile-navbar.active .navbar__text4 {
+  margin-top: 200px;
+  color: white;
+  font-family: "Lato";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+#mobile-navbar.active .navbar__text5 {
+  margin-top: 1200px;
+  color: white;
+  font-family: "Avenir";
+  font-size: 200px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+#mobile-navbar.active .mobile-authorization {
+  position: absolute;
+  display: flex;
+  top: 1700px;
+  width: 100%;
+  justify-content: center;
+}
+#mobile-navbar.active .mobile-authorization .mobile-authorization__text {
+  margin-top: 50px;
+  color: white;
+  font-family: "Lato";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-left: 400px;
+  margin-right: 50px;
+}
+#mobile-navbar.active .mobile-authorization .button {
+  margin-right: 400px;
+  height: 150px;
+  width: 400px;
+  border-radius: 4px;
+  background: #01996D;
+  border: none;
+}
+#mobile-navbar.active .mobile-authorization .button p {
+  color: white;
+  font-family: "Lato";
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: center;
+}
+#mobile-navbar.active img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(152deg) brightness(104%) contrast(101%);
+}
+
+.header {
+  height: 85px;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  top: 0.02%;
+  bottom: 98.31%;
+  background: #FFFFFF;
+  border-bottom: 1px solid #D6D6D6;
+}
+@media (max-device-width: 500px) {
+  .header {
+    display: none;
+  }
+}
+.header .logo {
+  position: absolute;
+  height: 23.04px;
+  width: 79.57px;
+  left: 274.97px;
+  top: 31.32px;
+}
+.header .navbar {
+  display: flex;
+  position: absolute;
+  top: 31px;
+  left: 527px;
+}
+.header .navbar__text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 71px;
+}
+.header .authorization {
+  position: absolute;
+  width: 277px;
+  height: 51px;
+  left: 1367px;
+  top: 18px;
+  display: flex;
+}
+.header .authorization .authorization__text {
+  display: block;
+  height: 24px;
+  margin-top: 13px;
+  margin-right: 35px;
+  width: 59px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.header .authorization .button {
+  height: 51px;
+  width: 183px;
+  border-radius: 4px;
+  background: #01996D;
+  border: none;
+}
+.header .authorization .button :hover {
+  cursor: pointer;
+}
+.header .authorization .button p {
+  height: 25px;
+  width: 87px;
+  color: #FFFFFF;
+  padding: 13px 50px 13px 50px;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.information {
+  position: absolute;
+  width: 200%;
+  height: 895px;
+  left: 0;
+  top: 0;
+  background: url(images/BG.png);
+  background-repeat: no-repeat;
+}
+.information .headline {
+  position: absolute;
+  width: 440px;
+  height: 372px;
+  top: 273px;
+  left: 275px;
+}
+.information .headline .headline__title {
+  height: 148px;
+  width: 440px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 74px;
+  color: #01996D;
+}
+.information .headline .headline__text {
+  width: 420px;
+  height: 123px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #484848;
+  margin-top: 18px;
+}
+.information .headline .button {
+  height: 65px;
+  width: 227px;
+  border-radius: 4px;
+  background: #01996D;
+  border: none;
+}
+.information .headline .button p {
+  padding: 20px 50px 20px 50px;
+  width: 128px;
+  height: 25px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.information .headline .button :hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,237 @@
+.relaxation {
+  position: absolute;
+  width: 100%;
+  height: 1386px;
+  left: 0;
+  top: 0;
+  @media (max-device-width: 575px) {
+    position: static;
+  }
+
+  .howItWorks {
+    position: absolute;
+    width: 1391px;
+    height: 327px;
+    left: 267px;
+    top: 1136px;
+    @media (max-device-width: 390px) and (max-device-width: 844px) {
+      left: 6%;
+    }
+
+
+    .howItWorks__heading {
+      width: 141px;
+      height: 38px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 157%;
+      color: #424242;
+    }
+
+    .howItWorks__title {
+      width: 584px;
+      height: 158px;
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 157%;
+      color: #01996D;
+    }
+
+    .howItWorks__text {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 671px;
+      height: 269px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 30px;
+      color: #424242;
+    }
+  }
+
+  .first-step {
+    position: absolute;
+    width: 390px;
+    height: 939px;
+    left: 267px;
+    top: 1379px;
+    @media (max-device-width: 415px) {
+      left: 6%;
+    }
+
+    h2 {
+      width: 157px;
+      height: 225.48px;
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 150px;
+      line-height: 150%;
+      text-align: center;
+      color: rgba(1, 153, 109, 0.2);
+    }
+
+    h1 {
+      position: absolute;
+      top: 135px;
+      left: 88px;
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 150%;
+      text-align: center;
+      color: #000000;
+    }
+
+    p {
+      width: 382px;
+      height: 150.32px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 150%;
+      color: #424242;
+      margin-top: 10px;
+      @media (max-device-width: 415px){
+        line-height: 115%;
+      }
+    }
+
+    .image {
+      width: 390px;
+      height: 493.05px;
+      margin-top: 60px;
+      background: url("images/Rectangle 30.png");
+
+      img {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        position: absolute;
+        width: 185px;
+        height: 148px;
+        right: 0;
+        top: 672px;
+        background: linear-gradient(122.77deg, rgba(24, 24, 24, 0.2) 2.51%, rgba(196, 196, 196, 0) 95.42%);
+      }
+    }
+  }
+
+  .second-step {
+    position: absolute;
+    width: 392px;
+    height: 854px;
+    left: 752px;
+    top: 1668px;
+    @media (max-device-width: 415px) {
+      left: 59%;
+    }
+
+    h2 {
+      width: 176px;
+      height: 225px;
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 150px;
+      line-height: 150%;
+      text-align: center;
+      color: rgba(1, 153, 109, 0.2);
+    }
+
+    h1 {
+      position: absolute;
+      top: 135px;
+      left: 79px;
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 150%;
+      text-align: center;
+      color: #000000;
+    }
+
+    p {
+      width: 392px;
+      height: 90px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 150%;
+      color: #424242;
+      margin-top: 10px;
+    }
+
+    img {
+      width: 390px;
+      height: 492px;
+      margin-top: 37px;
+    }
+  }
+
+  .third-step {
+    position: absolute;
+    width: 441px;
+    height: 856px;
+    left: 1239px;
+    top: 1435px;
+    @media (max-device-width: 415px) {
+      left: 110%;
+    }
+
+    h2 {
+      width: 175px;
+      height: 225px;
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 150px;
+      line-height: 150%;
+      text-align: center;
+      color: rgba(1, 153, 109, 0.2);
+    }
+
+    h1 {
+      position: absolute;
+      top: 135px;
+      left: 124px;
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 150%;
+      text-align: center;
+      color: #000000;
+    }
+
+    p {
+      width: 441px;
+      height: 90px;
+      margin-top: 10px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 150%;
+      color: #424242;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 48px;
+    }
+  }
+}
+

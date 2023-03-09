@@ -1,0 +1,79 @@
+.modal.active {
+  z-index: 4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.9;
+}
+.modal.active .modal__form .modal__login {
+  position: absolute;
+  width: 20%;
+  height: 50px;
+  top: 20%;
+  left: 40%;
+  font-size: 20px;
+}
+@media (max-device-width: 415px) {
+  .modal.active .modal__form .modal__login {
+    width: 40%;
+    height: 100px;
+    font-size: 40px;
+    left: 30%;
+  }
+}
+.modal.active .modal__form .modal__password {
+  position: absolute;
+  width: 20%;
+  height: 50px;
+  top: 30%;
+  left: 40%;
+  font-size: 20px;
+}
+@media (max-device-width: 415px) {
+  .modal.active .modal__form .modal__password {
+    width: 40%;
+    height: 100px;
+    font-size: 40px;
+    left: 30%;
+    top: 25%;
+  }
+}
+.modal.active .modal__form .modal__button {
+  position: absolute;
+  width: 20%;
+  height: 50px;
+  top: 40%;
+  left: 40%;
+  font-size: 20px;
+}
+@media (max-device-width: 415px) {
+  .modal.active .modal__form .modal__button {
+    width: 40%;
+    height: 100px;
+    font-size: 40px;
+    left: 30%;
+    top: 30%;
+  }
+}
+.modal.active .modal__form p {
+  display: block;
+  position: absolute;
+  width: 20%;
+  top: 50%;
+  left: 40%;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+@media (max-device-width: 415px) {
+  .modal.active .modal__form p {
+    height: 100px;
+    font-size: 40px;
+    top: 35%;
+  }
+}
+
+/*# sourceMappingURL=modal.css.map */

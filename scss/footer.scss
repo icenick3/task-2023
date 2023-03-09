@@ -1,0 +1,68 @@
+.footer {
+  position: absolute;
+  width: 200%;
+  height: 654px;
+  left: 0px;
+  top: 4445px;
+  background: #245852;
+
+  .alivio {
+    position: absolute;
+    left: 275px;
+    top: 95px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+  }
+
+  .whyAlivio {
+    position: absolute;
+    left: 275px;
+    top: 210px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+
+  .solutions {
+    position: absolute;
+    left: 275px;
+    top: 300px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+
+  .community {
+    position: absolute;
+    left: 275px;
+    top: 390px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+
+  .pricing {
+    position: absolute;
+    left: 275px;
+    top: 480px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+}
